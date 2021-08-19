@@ -1,0 +1,45 @@
+/*
+Theme Name: Goalball
+Theme URI: 
+Description: Thème enfant de « twentyseventeen », pour le développement d'un site consacré au Goalball.
+Author: Tiavina Ralandison, Adamn Bederiat, Margaux Coppi 
+Author URI: 
+Template: twentyseventeen
+Version: 1.0
+*/
+
+#site-title, .site-title, #site-title a, .site-title a, #site-logo, #site-logo a, #logo, #logo a, .logo, .logo a {
+    font-family: "Montserrat" !important;
+}
+
+.site-title{
+    text-transform: none !important;
+}
+
+.site-branding{
+    display: flex !important;
+
+}
+.site-branding-text{
+    text-align: center;
+}
+
+.navigation-top, .main-navigation ul, .colors-dark .navigation-top, .colors-dark .main-navigation ul, .colors-custom .navigation-top, .colors-custom .main-navigation ul {
+    background-color: #0f056b !important;
+}
+
+.menu-item a {
+    color: white !important;
+    text-transform: uppercase !important;
+}
+
+.navigation-top{
+    position: absolute!important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+.navigation-top>.wrap {
+    margin-left: 0 !important;
+    max-width: 100% !important;
+}
